@@ -4,10 +4,28 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Rice Business Calculator</title>
+  <title>Rice Price Calculator</title>
   <script src="https://cdn.tailwindcss.com"></script>
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌾</text></svg>">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            'primary': '#4CAF50',
+            'primary-dark': '#388E3C',
+            'secondary': '#FFC107',
+            'accent': '#009688',
+            'background': '#F5F5F5',
+            'card': '#FFFFFF',
+            'text-primary': '#212121',
+            'text-secondary': '#757575',
+          }
+        }
+      }
+    }
+  </script>
 
+<link rel="stylesheet" href="/index.css">
 <script type="importmap">
 {
   "imports": {
@@ -17,11 +35,9 @@
   }
 }
 </script>
-  <script type="module" crossorigin src="/rice-price/assets/index-B3WtxFAd.js"></script>
-  <link rel="stylesheet" crossorigin href="/rice-price/assets/index-C6G_3qQV.css">
+  <script type="module" crossorigin src="/rice-price/assets/index-KADTS9nm.js"></script>
 </head>
-<body>
-  <noscript>You need to enable JavaScript to run this app.</noscript>
+<body class="bg-background text-text-primary">
   <div id="root"></div>
 </body>
 </html>
